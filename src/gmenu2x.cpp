@@ -62,7 +62,8 @@ using namespace fastdelegate;
 
 #define sync() sync(); system("sync &");
 
-string dataPath = "/usr/share/gmenunx";
+//string dataPath = "/usr/share/gmenunx";
+string dataPath = "./";
 string homePath = (string)getenv("HOME") + "/.gmenunx";
 
 string prevDateTime = "", newDateTime = "";
